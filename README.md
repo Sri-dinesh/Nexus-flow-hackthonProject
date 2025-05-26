@@ -1,14 +1,12 @@
-# Nexus Flow Project
+# Estate Nexus Project
 
-Nexus Flow Project is a modern web application built with Vite, TypeScript, React, shadcn-ui, and Tailwind CSS. It provides a seamless user experience with rapid development workflows and instant previews.
+Estate Nexus Project is a modern web application built with Vite, TypeScript, React, shadcn-ui, and Tailwind CSS. It provides a seamless user experience with rapid development workflows and instant previews.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Development](#development)
 - [Technologies Used](#technologies-used)
-- [Deployment](#deployment)
-- [Custom Domain](#custom-domain)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -62,22 +60,6 @@ This project is built with the following technologies:
 - **React** – A JavaScript library for building user interfaces.
 - **shadcn-ui** – Pre-built UI components.
 - **Tailwind CSS** – Utility-first CSS framework for rapid styling.
-
-## Deployment
-
-To deploy the project, simply open [Lovable](https://lovable.dev/projects/57377fc2-bfbe-4932-bee9-0e3041f5689a) and follow these steps:
-
-1. Click on **Share → Publish** to deploy your project.
-2. For further details, refer to the deployment section in Lovable’s documentation.
-
-## Custom Domain
-
-Yes, you can connect a custom domain to your Lovable project. To set up a custom domain:
-
-1. Navigate to **Project > Settings > Domains**.
-2. Click **Connect Domain** and follow the instructions provided.
-
-For more details, check out this guide: [Setting up a Custom Domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide).
 
 ## Contributing
 

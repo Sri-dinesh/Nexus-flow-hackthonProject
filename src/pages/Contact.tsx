@@ -38,21 +38,6 @@ const Contact = () => {
     },
   });
 
-  // const onSubmit = async (data: ContactFormValues) => {
-  //   setIsSubmitting(true);
-
-  //   // Simulate API call
-  //   await new Promise((resolve) => setTimeout(resolve, 1000));
-
-  //   toast({
-  //     title: "Message sent successfully!",
-  //     description: "We'll get back to you as soon as possible.",
-  //   });
-
-  //   form.reset();
-  //   setIsSubmitting(false);
-  // };
-
   const onSubmit = async (data: ContactFormValues) => {
     setIsSubmitting(true);
 

@@ -15,7 +15,7 @@ export const properties: Property[] = [
     },
     price: 1250000,
     beds: 4,
-    baths: 3.5,
+    baths: 3,
     area: 3200,
     description:
       "Stunning waterfront villa with panoramic views of Biscayne Bay. This modern property features an open floor plan, floor-to-ceiling windows, and high-end finishes throughout. The outdoor space includes a private pool, summer kitchen, and direct water access.",
@@ -354,7 +354,7 @@ export const properties: Property[] = [
     },
     price: 1750000,
     beds: 2,
-    baths: 2.5,
+    baths: 2,
     area: 1800,
     description:
       "Luxury condo with panoramic city views, smart home features, and resort-style amenities in the heart of Hollywood.",
@@ -554,7 +554,7 @@ export const properties: Property[] = [
     },
     price: 3100000,
     beds: 4,
-    baths: 3.5,
+    baths: 3,
     area: 4200,
     description:
       "Contemporary smart home in prime Silicon Valley location with tech-ready features.",
@@ -779,7 +779,7 @@ export const properties: Property[] = [
     createdAt: "2024-01-16",
   },
   {
-    id: "73",
+    id: "74",
     title: "Atlanta Midtown Penthouse",
     type: "Apartment",
     location: {
@@ -858,7 +858,7 @@ export const properties: Property[] = [
   },
 
   {
-    id: "73",
+    id: "78",
     title: "Miami Beachfront Condo",
     type: "Condo",
     location: {
@@ -871,7 +871,7 @@ export const properties: Property[] = [
     },
     price: 2750000,
     beds: 3,
-    baths: 3.5,
+    baths: 3,
     area: 2800,
     description:
       "Modern beachfront residence with private balcony and resort amenities.",
@@ -914,7 +914,7 @@ export const properties: Property[] = [
     },
     price: 1895000,
     beds: 4,
-    baths: 4.5,
+    baths: 4,
     area: 4200,
     description: "Contemporary mountain home with ski-in/ski-out access.",
     features: ["Ski Storage", "Hot Tub", "Fire Pit", "Solar Panels", "Wet Bar"],
@@ -952,7 +952,7 @@ export const properties: Property[] = [
     },
     price: 895000,
     beds: 2,
-    baths: 2.5,
+    baths: 2,
     area: 1800,
     description:
       "LEED-certified urban dwelling with rooftop garden and EV charging.",
@@ -1037,7 +1037,7 @@ export const properties: Property[] = [
     },
     price: 875000,
     beds: 3,
-    baths: 2.5,
+    baths: 2,
     area: 2200,
     description:
       "Restored 19th-century townhome with original hardwood floors.",
@@ -1066,8 +1066,6 @@ export const properties: Property[] = [
     createdAt: "2024-04-12",
   },
 
-  // 48 more entries following the exact pattern...
-
   {
     id: "120",
     title: "Portland Eco-Friendly Home",
@@ -1082,7 +1080,7 @@ export const properties: Property[] = [
     },
     price: 895000,
     beds: 2,
-    baths: 2.5,
+    baths: 2,
     area: 1800,
     description: "LEED-certified urban dwelling with rooftop garden.",
     features: [
