@@ -1,3 +1,5 @@
+/* This code snippet is a TypeScript React application that sets up various routes using React Router.
+Here's a breakdown of what the code is doing: */
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";

@@ -94,22 +94,40 @@ const Index = () => {
       </section>
       
       {/* Call to Action */}
-      <section className="py-16 bg-primary text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Find Your Dream Home?</h2>
-          <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
-            Let us help you navigate the real estate market and discover the perfect property for your needs
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Button variant="secondary" size="lg" onClick={() => navigate("/properties")}>
-              Browse Properties
-            </Button>
-            <Button variant="outline" size="lg" className="bg-transparent text-white hover:bg-white hover:text-primary" onClick={() => navigate("/contact")}>
-              Contact Us
-            </Button>
-          </div>
-        </div>
-      </section>
+  <section className="py-20 bg-gradient-to-r from-primary to-blue-700 text-white relative overflow-hidden">
+  <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/white-diamond.png')]"></div>
+
+  <div className="container mx-auto px-4 text-center relative z-10">
+    <h2 className="text-4xl md:text-5xl font-extrabold mb-6 drop-shadow-lg animate-fade-in-up">
+      Ready to Find Your Dream Home?
+    </h2>
+
+    <p className="text-xl md:text-2xl opacity-90 mb-10 max-w-2xl mx-auto animate-fade-in-up delay-100">
+      Let us help you explore the real estate market and discover the perfect place to call home.
+    </p>
+
+    <div className="flex flex-wrap justify-center gap-6 animate-fade-in-up delay-200">
+      <Button
+        variant="secondary"
+        size="lg"
+        onClick={() => navigate("/properties")}
+        className="px-8 py-4 text-lg font-semibold rounded-full shadow-xl hover:scale-105 transition-transform duration-300"
+      >
+        🏘️ Browse Properties
+      </Button>
+
+      <Button
+        variant="outline"
+        size="lg"
+        onClick={() => navigate("/contact")}
+        className="px-8 py-4 text-lg font-semibold border-2 border-white text-primary  hover:bg-white hover:text-primary rounded-full transition-all duration-300"
+      >
+        📞 Contact Us
+      </Button>
+    </div>
+  </div>
+</section>
+
       
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
